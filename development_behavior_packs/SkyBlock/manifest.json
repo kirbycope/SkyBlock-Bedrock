@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "SkyBlock",
+        "description": "SkyBlock Behavior Pack",
+        "uuid": "22119525-3010-4435-876b-e0a82049fae9",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 18, 0]
+    },
+    "metadata": {
+        "authors": [
+            "Kirbycope"
+        ]
+    },
+    "modules": [
+        {
+            "description": "Behavior",
+            "type": "data",
+            "uuid": "26d9816b-d6b9-42db-ad66-3c8fc59a4ae7",
+            "version": [1, 0, 0]
+        }
+    ],
+	"dependencies": [
+		{
+			"uuid": "1d239c5d-ee3f-4f5d-9581-bb5666b19e3c",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "SkyBlock",
+		"description": "SkyBlock Resource Pack",
+		"uuid": "1d239c5d-ee3f-4f5d-9581-bb5666b19e3c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["Kirbycope"]
+	},
+	"modules": [
+		{
+			"description": "SkyBlock",
+			"type": "resources",
+			"uuid": "b7904517-b0bf-45f0-9e09-baec78ab3bff",
+			"version": [1, 0, 0]
+		}
+	]
+}
