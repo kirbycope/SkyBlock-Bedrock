@@ -190,13 +190,13 @@
 								{
 									"test": "has_equipment",
 									"subject": "self",
-									"value": "cope:skyblock_star",
+									"value": "skyblock:menu_star",
 									"domain": "hand",
 									"operator": "=="
 								}
 							]
 						},
-						"event": "cope:holding_item"
+						"event": "skyblock:holding_item"
 					},
 					{
 						"filters": {
@@ -204,13 +204,13 @@
 								{
 									"test": "has_equipment",
 									"subject": "self",
-									"value": "cope:skyblock_star",
+									"value": "skyblock:menu_star",
 									"domain": "hand",
 									"operator": "=="
 								}
 							]
 						},
-						"event": "cope:remove_menu"
+						"event": "skyblock:remove_menu"
 					}
 				]
 			}
@@ -249,17 +249,17 @@
 					]
 				}
 			},
-			"cope:holding_item": {
+			"skyblock:holding_item": {
 				"run_command": {
 					"command": [
 						"execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open"
 					]
 				}
 			},
-			"cope:remove_menu": {
+			"skyblock:remove_menu": {
 				"run_command": {
 					"command": [
-						"execute @a[tag=init] ~ ~ ~ tp @e[type=cope:invisible_chest_minecart] 0 0 0"
+						"execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] 0 0 0"
 					]
 				}
 			}

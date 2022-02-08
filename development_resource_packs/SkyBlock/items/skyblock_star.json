@@ -2,7 +2,7 @@
     "format_version": "1.10",
     "minecraft:item": {
         "description": {
-            "identifier": "cope:skyblock_star"
+            "identifier": "skyblock:menu_star"
         },
         "components": {
             "minecraft:icon": "nether_star"

@@ -2,7 +2,7 @@
     "format_version": "1.10",
     "minecraft:item": {
         "description": {
-            "identifier": "cope:skyblock_star",
+            "identifier": "skyblock:menu_star",
             "is_spawnable": false,
             "is_summonable": true,
             "is_experimental": false

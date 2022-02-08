@@ -1,7 +1,7 @@
 {
 	"entity_sounds": {
 		"entities": {
-			"cope:invisible_chest_minecart": {
+			"skyblock:invisible_chest_minecart": {
 				"events" : {
 					"step" : ""
 				 }
