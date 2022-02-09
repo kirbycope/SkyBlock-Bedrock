@@ -1,1 +1,1 @@
-scoreboard players set "§7 <> §aYour Island" skyblock-sidebar 8
+scoreboard players set "§7 <> §aYour Island" skyblock_sidebar 8

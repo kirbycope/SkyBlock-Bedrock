@@ -1,1 +1,1 @@
-scoreboard players set " www.hypixel.net" skyblock-sidebar 1
+scoreboard players set " www.hypixel.net" skyblock_sidebar 1

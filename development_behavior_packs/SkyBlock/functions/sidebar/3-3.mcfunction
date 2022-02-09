@@ -1,3 +1,3 @@
-scoreboard players reset "   " skyblock-sidebar
+scoreboard players reset "   " skyblock_sidebar
 # Craft a wood pickaxe  3
-scoreboard players set "§eCraft a wood pickaxe" skyblock-sidebar 3
+scoreboard players set "§e Craft a wood pickaxe" skyblock_sidebar 3

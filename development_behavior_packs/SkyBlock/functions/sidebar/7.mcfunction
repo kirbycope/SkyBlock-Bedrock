@@ -1,1 +1,1 @@
-scoreboard players set "       " skyblock-sidebar 7
+scoreboard players set "       " skyblock_sidebar 7

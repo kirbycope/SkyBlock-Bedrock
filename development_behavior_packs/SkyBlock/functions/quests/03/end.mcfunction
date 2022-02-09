@@ -1,5 +1,5 @@
 # Remove relevant scoreboard
-scoreboard objectives remove pickaxe-crafted
+scoreboard objectives remove pickaxe_crafted
 
 # Remove "current" Boss Bar
 #bossbar remove skyblock:bossbar-pickaxe

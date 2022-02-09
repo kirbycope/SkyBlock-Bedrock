@@ -1,5 +1,5 @@
 # Remove relevant scoreboard
-scoreboard objectives remove table-crafted
+scoreboard objectives remove table_crafted
 
 # Remove "current" Boss Bar
 #bossbar remove skyblock:bossbar-workbench

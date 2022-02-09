@@ -15,18 +15,21 @@ scoreboard players set World year 1
 scoreboard objectives add clock dummy
 
 # [Quest Tracker]
-scoreboard objectives add quest-id dummy
+scoreboard objectives add quest_id dummy
+scoreboard players add @a quest_id 0
 
 # [Sidebar] SKYBLOCK
-scoreboard objectives add skyblock-sidebar dummy "§e§lSKYBLOCK"
-scoreboard objectives setdisplay sidebar skyblock-sidebar
+scoreboard objectives add skyblock_sidebar dummy "§e§lSKYBLOCK"
+scoreboard objectives setdisplay sidebar skyblock_sidebar
 
 # [NPC] Jerry
 summon villager 3 65 26 become_unskilled "§fJerry §eCLICK"
+tp @e[name="§fJerry §eCLICK"] 3 65 26 facing 0 64 0
 effect @e[name="§fJerry §eCLICK"] resistance 255 255 true
 
 # [NPC] Cobblestone Minion
 summon armor_stand -3 65 29 calmed_down "§7Cobblestone Minion"
+tp @e[name="§7Cobblestone Minion"] -3 65 29 facing 0 64 0
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.head 0 skull 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.chest 0 leather_chestplate 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.legs 0 leather_leggings 1

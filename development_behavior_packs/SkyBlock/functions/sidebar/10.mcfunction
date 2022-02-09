@@ -1,1 +1,1 @@
-scoreboard players set " Early Spring 1st " skyblock-sidebar 10
+scoreboard players set " Early Spring 1st " skyblock_sidebar 10

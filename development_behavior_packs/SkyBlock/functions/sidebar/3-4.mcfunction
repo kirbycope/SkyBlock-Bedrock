@@ -1,3 +1,3 @@
-scoreboard players reset "   " skyblock-sidebar
+scoreboard players reset "   " skyblock_sidebar
 # Talk to Jerry  3
-scoreboard players set "§eTalk to Jerry" skyblock-sidebar 3
+scoreboard players set "§e Talk to Jerry" skyblock_sidebar 3

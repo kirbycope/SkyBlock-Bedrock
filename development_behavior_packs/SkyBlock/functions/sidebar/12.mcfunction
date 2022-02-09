@@ -1,1 +1,1 @@
-scoreboard players set "§7 MM/DD/YY §8local" skyblock-sidebar 12
+scoreboard players set "§7 MM/DD/YY §8local" skyblock_sidebar 12

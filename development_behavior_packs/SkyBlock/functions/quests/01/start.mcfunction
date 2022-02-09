@@ -2,7 +2,7 @@
 tellraw @a {"rawtext":[{"text":"§6§lNEW OBJECTIVE"},{"text":"\n"},{"text":"§r§fBreak a log"}]}
 
 # Set the Quest ID
-scoreboard players set @a quest-id 1
+scoreboard players set @a quest_id 1
 # Set the Quest Objective
 # n/a (covered in Collections)
 
