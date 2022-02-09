@@ -1,6 +1,3 @@
-# Initialize the world
-execute @s[scores={initialized=!0}] ~ ~ ~ function events/init-world
-
 # Initialize new players
 execute @a[tag=!init] ~ ~ ~ function events/init-player
 
