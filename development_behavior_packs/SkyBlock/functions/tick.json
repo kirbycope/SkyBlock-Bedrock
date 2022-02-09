@@ -1,5 +1,6 @@
 {
     "values": [
-        "tick"
+        "tick",
+        "load_check"
     ]
-  }
+}

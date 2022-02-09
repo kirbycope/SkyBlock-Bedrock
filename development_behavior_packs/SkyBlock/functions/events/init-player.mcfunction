@@ -16,6 +16,3 @@ function quests/01/start
 # Collections
 #scoreboard objectives add oak-log-mined minecraft.mined:minecraft.oak_log
 #scoreboard objectives add oak-wood-mined minecraft.mined:minecraft.oak_wood
-
-# Chest Menu - Menu Chest
-summon skyblock:invisible_chest_minecart 0 64 0
