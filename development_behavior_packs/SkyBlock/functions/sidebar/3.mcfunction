@@ -1,5 +1,5 @@
 # Reset
-scoreboard players set "   " skyblock-sidebar
+scoreboard players set "   " skyblock-sidebar 3
 scoreboard players reset "§eBreak a log" skyblock-sidebar
 scoreboard players reset "§eCraft a workbench" skyblock-sidebar
 scoreboard players reset "§eCraft a wood pickaxe" skyblock-sidebar
