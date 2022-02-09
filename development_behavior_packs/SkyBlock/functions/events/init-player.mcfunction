@@ -14,5 +14,5 @@ tellraw @a {"rawtext":[{"text":"§e▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 function quests/01/start
 
 # Collections
-#scoreboard objectives add oak-log-mined minecraft.mined:minecraft.oak_log
-#scoreboard objectives add oak-wood-mined minecraft.mined:minecraft.oak_wood
+scoreboard objectives add oak-log-mined dummy
+scoreboard objectives add oak-wood-mined dummy

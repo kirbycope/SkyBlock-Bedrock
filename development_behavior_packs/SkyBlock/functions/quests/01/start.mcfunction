@@ -1,5 +1,5 @@
 # Announce new objective
-tellraw @a {"rawtext":[{"text":"§6§lNEW OBJECTIVE"},{"text":"\n"},{"text":"§fBreak a log"}]}
+tellraw @a {"rawtext":[{"text":"§6§lNEW OBJECTIVE"},{"text":"\n"},{"text":"§r§fBreak a log"}]}
 
 # Set the Quest ID
 scoreboard players set @a quest-id 1
