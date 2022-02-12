@@ -1,11 +1,5 @@
 {
 	"entity_sounds": {
-		"entities": {
-			"skyblock:invisible_chest_minecart": {
-				"events" : {
-					"step" : ""
-				 }
-			}
-		}
+		"entities": {}
 	}
 }

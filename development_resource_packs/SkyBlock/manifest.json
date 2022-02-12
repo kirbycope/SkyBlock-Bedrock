@@ -1,20 +1,23 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "SkyBlock",
-		"description": "SkyBlock Resource Pack",
-		"uuid": "1d239c5d-ee3f-4f5d-9581-bb5666b19e3c",
+		"name": "Skyblock",
+		"description": "Skyblock Resource Pack",
+		"uuid": "fd1b8237-8458-dddc-c5ab-4c047eb26822",
 		"version": [1, 0, 0],
 		"min_engine_version": [1, 16, 0]
 	},
 	"metadata": {
-		"authors": ["Kirbycope"]
+		"authors": ["Kirbycope"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
 	},
 	"modules": [
 		{
-			"description": "SkyBlock",
+			"description": "Skyblock",
 			"type": "resources",
-			"uuid": "b7904517-b0bf-45f0-9e09-baec78ab3bff",
+			"uuid": "8170a682-8316-09ad-4f0e-61e3f748924a",
 			"version": [1, 0, 0]
 		}
 	]
