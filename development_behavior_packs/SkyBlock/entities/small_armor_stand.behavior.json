@@ -8,6 +8,13 @@
 			"is_summonable": true,
 			"is_experimental": false
 		},
+		"component_groups": {
+			"skyblock:small": {
+				"minecraft:scale": {
+					"value": 0.75
+				}
+			}
+		},
 		"components": {
 			"minecraft:type_family": {
 				"family": ["armor_stand", "inanimate", "mob"]
@@ -49,6 +56,14 @@
 			},
 			"minecraft:conditional_bandwidth_optimization": {}
 		},
-		"events": {}
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"skyblock:small"
+					]
+				}
+			}
+		}
 	}
 }

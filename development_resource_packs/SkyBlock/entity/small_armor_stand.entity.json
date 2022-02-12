@@ -29,13 +29,21 @@
 				"controller.wiggling": "controller.animation.armor_stand.wiggle"
 			},
 			"scripts": {
-				"initialize": ["variable.armor_stand.pose_index=0;", "variable.armor_stand.hurt_time=0;"],
-				"animate": ["controller.pose", "controller.wiggling"]
+				"initialize": [
+					"variable.armor_stand.pose_index=0;",
+					"variable.armor_stand.hurt_time=0;"
+				],
+				"animate": [
+					"controller.pose",
+					"controller.wiggling"
+				]
 			},
 			"geometry": {
 				"default": "geometry.small_armor_stand"
 			},
-			"render_controllers": ["controller.render.armor_stand"],
+			"render_controllers": [
+				"controller.render.armor_stand"
+			],
 			"enable_attachables": true
 		}
 	}
