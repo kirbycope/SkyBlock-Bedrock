@@ -7,7 +7,7 @@ execute @a[tag=!collected_wood,scores={oak_log_mined=1}] ~ ~ ~ function collecti
 execute @a[tag=!collected_wood,scores={oak_wood_mined=1}] ~ ~ ~ function collections/first-time
 
 
-# ════ Menus ════ #
+# ════ NPCs ════ #
 
 # Put Jerry in his place
 tp @e[name="§fJerry §eCLICK"] 3 65 26

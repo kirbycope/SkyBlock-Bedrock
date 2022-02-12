@@ -1,5 +1,8 @@
 # Teleport the Chest Minecart to the player's face if one already exists
-execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] ~ ~1.2 ~
+#execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] ~ ~1.2 ~
+
+# Summon a Chest Minecart if one does not already exist
+execute @a[tag=init] ~ ~ ~ summon skyblock:invisible_chest_minecart "SkyBlock Menu" ~ ~1.2 ~
 
 # Make the Chest Minecart unbreakable
 effect @e[type=skyblock:invisible_chest_minecart] resistance 255 255 true
