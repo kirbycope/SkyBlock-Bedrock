@@ -3,7 +3,6 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "skyblock:small_armor_stand",
-			"runtime_identifier": "minecraft:armor_stand",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
