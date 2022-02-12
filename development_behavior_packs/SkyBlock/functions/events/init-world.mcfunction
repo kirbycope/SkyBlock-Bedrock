@@ -38,4 +38,4 @@ replaceitem entity @e[name="§7Cobblestone Minion"] slot.weapon.mainhand 0 stone
 effect @e[name="§7Cobblestone Minion"] resistance 255 255 true
 
 # Chest Menu - Menu Chest
-summon skyblock:invisible_chest_minecart 0 64 0
+summon skyblock:invisible_chest_minecart "SkyBlock Menu" 0 64 0

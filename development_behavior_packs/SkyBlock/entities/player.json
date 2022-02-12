@@ -252,14 +252,14 @@
 			"skyblock:holding_item": {
 				"run_command": {
 					"command": [
-						"execute @a[tag=init] ~ ~ ~ function menus/chest-menu-open"
+						"execute @s ~ ~ ~ function menus/chest-menu-open"
 					]
 				}
 			},
 			"skyblock:remove_menu": {
 				"run_command": {
 					"command": [
-						"execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] 0 0 0"
+						"execute @s ~ ~ ~ function menus/chest-menu-close"
 					]
 				}
 			}

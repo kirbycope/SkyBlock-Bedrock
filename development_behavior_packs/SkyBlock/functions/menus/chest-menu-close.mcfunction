@@ -1,0 +1,1 @@
+execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] 0 0 0
