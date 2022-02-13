@@ -17,6 +17,10 @@ scoreboard objectives add clock dummy
 # [Chest Menu] Item Count
 scoreboard objectives add menu_carts dummy
 
+# [Collections] Oak Log
+scoreboard objectives add oak_log_mined dummy
+scoreboard objectives add oak_wood_mined dummy
+
 # [Quest Tracker]
 scoreboard objectives add quest_id dummy
 scoreboard players add @a quest_id 0

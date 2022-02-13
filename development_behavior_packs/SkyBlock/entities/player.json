@@ -196,7 +196,7 @@
 								}
 							]
 						},
-						"event": "skyblock:holding_item"
+						"event": "skyblock:holding_menu_star"
 					},
 					{
 						"filters": {
@@ -211,6 +211,34 @@
 							]
 						},
 						"event": "skyblock:remove_menu"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"value": "minecraft:crafting_table",
+									"domain": "hand",
+									"operator": "=="
+								}
+							]
+						},
+						"event": "skyblock:holding_crafting_table"
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_equipment",
+									"subject": "self",
+									"value": "minecraft:wooden_pickaxe",
+									"domain": "hand",
+									"operator": "=="
+								}
+							]
+						},
+						"event": "skyblock:holding_wooden_pickaxe"
 					}
 				]
 			}
@@ -249,7 +277,7 @@
 					]
 				}
 			},
-			"skyblock:holding_item": {
+			"skyblock:holding_menu_star": {
 				"run_command": {
 					"command": [
 						"execute @s ~ ~ ~ function menus/chest-menu-open"
@@ -260,6 +288,20 @@
 				"run_command": {
 					"command": [
 						"execute @s ~ ~ ~ function menus/chest-menu-close"
+					]
+				}
+			},
+			"skyblock:holding_crafting_table": {
+				"run_command": {
+					"command": [
+						"execute @a[scores={quest_id=2}] ~ ~ ~ scoreboard players set @a table_crafted 1"
+					]
+				}
+			},
+			"skyblock:holding_wooden_pickaxe": {
+				"run_command": {
+					"command": [
+						"execute @a[scores={quest_id=3}] ~ ~ ~ scoreboard players set @a pickaxe_crafted 1"
 					]
 				}
 			}

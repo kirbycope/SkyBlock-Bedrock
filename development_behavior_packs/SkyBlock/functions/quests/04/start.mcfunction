@@ -2,7 +2,7 @@
 tellraw @a {"rawtext":[{"text":"§6§lNEW OBJECTIVE"},{"text":"\n"},{"text":"§r§fTalk to Jerry"}]}
 
 # Set the Quest ID
-scoreboard players set Quest quest_id 4
+scoreboard players set @a quest_id 4
 # Set the Quest Objective
 scoreboard objectives add talked-to-jerry dummy
 

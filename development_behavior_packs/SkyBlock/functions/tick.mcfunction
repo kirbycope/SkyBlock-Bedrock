@@ -3,8 +3,12 @@ execute @a[tag=!init] ~ ~ ~ function events/init-player
 
 
 # ════ Collections ════ #
-execute @a[tag=!collected_wood,scores={oak_log_mined=1}] ~ ~ ~ function collections/first-time
-execute @a[tag=!collected_wood,scores={oak_wood_mined=1}] ~ ~ ~ function collections/first-time
+
+execute @p ~ ~ ~ execute @e[name="Oak Log",rm=0,r=2] ~ ~ ~ scoreboard players add @a oak_log_mined 1
+execute @p ~ ~ ~ execute @e[name="Oak Wood",rm=0,r=2] ~ ~ ~ scoreboard players add @a oak_wood_mined 1
+
+execute @p[tag=!collected_wood,scores={oak_log_mined=1}] ~ ~ ~ function collections/first-time
+execute @p[tag=!collected_wood,scores={oak_wood_mined=1}] ~ ~ ~ function collections/first-time
 
 
 # ════ NPCs ════ #
