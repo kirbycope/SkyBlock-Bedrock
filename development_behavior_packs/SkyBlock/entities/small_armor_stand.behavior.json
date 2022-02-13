@@ -11,7 +11,7 @@
 		"component_groups": {
 			"skyblock:small": {
 				"minecraft:scale": {
-					"value": 0.5
+					"value": 0.6
 				}
 			}
 		},

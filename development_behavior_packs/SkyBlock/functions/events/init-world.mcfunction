@@ -30,7 +30,7 @@ effect @e[name="§fJerry §eCLICK"] resistance 255 255 true
 # [NPC] Cobblestone Minion
 summon skyblock:small_armor_stand -3 65 29 minecraft:entity_spawned "§7Cobblestone Minion"
 tp @e[name="§7Cobblestone Minion"] -3 65 29 facing 0 64 0
-replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.head 0 skull 1
+replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.head 0 skyblock:cobblestone_helmet 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.chest 0 leather_chestplate 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.legs 0 leather_leggings 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.feet 0 leather_boots 1
