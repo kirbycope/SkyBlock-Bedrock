@@ -14,6 +14,9 @@ scoreboard players set World year 1
 # [Clock] Time
 scoreboard objectives add clock dummy
 
+# [Chest Menu] Item Count
+scoreboard objectives add menu_carts dummy
+
 # [Quest Tracker]
 scoreboard objectives add quest_id dummy
 scoreboard players add @a quest_id 0
@@ -36,6 +39,3 @@ replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.legs 0 leather_le
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.feet 0 leather_boots 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.weapon.mainhand 0 stone_pickaxe 1
 effect @e[name="§7Cobblestone Minion"] resistance 255 255 true
-
-# Chest Menu - Menu Chest
-summon skyblock:invisible_chest_minecart "SkyBlock Menu" 0 64 0

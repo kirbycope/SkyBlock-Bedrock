@@ -1,8 +1,14 @@
-# Teleport the Chest Minecart to the player's face if one already exists
-#execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] ~ ~1.2 ~
+# Reset menu minecart counter
+scoreboard players set @a menu_carts 0
 
-# Summon a Chest Minecart if one does not already exist
-execute @a[tag=init] ~ ~ ~ summon skyblock:invisible_chest_minecart "SkyBlock Menu" ~ ~1.2 ~
+# Set score to 1 if a menu minecart exists
+execute @e[type=skyblock:invisible_chest_minecart,c=1] ~ ~ ~ scoreboard players set @a menu_carts 1
+
+# Execute some code if score is 0
+execute @a[scores={menu_carts=0}] ~ ~ ~ execute @a[tag=init] ~ ~ ~ summon skyblock:invisible_chest_minecart "SkyBlock Menu" ~ ~1.2 ~
+
+# Execute some code if score is 1
+execute @a[scores={menu_carts=1}] ~ ~ ~ execute @a[tag=init] ~ ~ ~ tp @e[type=skyblock:invisible_chest_minecart] ~ ~1.2 ~
 
 # Make the Chest Minecart unbreakable
 effect @e[type=skyblock:invisible_chest_minecart] resistance 255 255 true
