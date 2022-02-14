@@ -239,6 +239,174 @@
 							]
 						},
 						"event": "skyblock:holding_wooden_pickaxe"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 0},
+								{"test": "hourly_clock_time","operator": "<=","value": 999}]
+						},
+						"event": "skyblock:6am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 1000},
+								{"test": "hourly_clock_time","operator": "<=","value": 1999}]
+						},
+						"event": "skyblock:7am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 2000},
+								{"test": "hourly_clock_time","operator": "<=","value": 2999}]
+						},
+						"event": "skyblock:8am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 3000},
+								{"test": "hourly_clock_time","operator": "<=","value": 3999}]
+						},
+						"event": "skyblock:9am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 4000},
+								{"test": "hourly_clock_time","operator": "<=","value": 4999}]
+						},
+						"event": "skyblock:10am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 5000},
+								{"test": "hourly_clock_time","operator": "<=","value": 5999}]
+						},
+						"event": "skyblock:11am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 6000},
+								{"test": "hourly_clock_time","operator": "<=","value": 6999}]
+						},
+						"event": "skyblock:12pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 7000},
+								{"test": "hourly_clock_time","operator": "<=","value": 7999}]
+						},
+						"event": "skyblock:1pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 8000},
+								{"test": "hourly_clock_time","operator": "<=","value": 8999}]
+						},
+						"event": "skyblock:2pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 9000},
+								{"test": "hourly_clock_time","operator": "<=","value": 9999}]
+						},
+						"event": "skyblock:3pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 10000},
+								{"test": "hourly_clock_time","operator": "<=","value": 10999}]
+						},
+						"event": "skyblock:4pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 11000},
+								{"test": "hourly_clock_time","operator": "<=","value": 11999}]
+						},
+						"event": "skyblock:5pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 12000},
+								{"test": "hourly_clock_time","operator": "<=","value": 12999}]
+						},
+						"event": "skyblock:6pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 13000},
+								{"test": "hourly_clock_time","operator": "<=","value": 13999}]
+						},
+						"event": "skyblock:7pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 14000},
+								{"test": "hourly_clock_time","operator": "<=","value": 14999}]
+						},
+						"event": "skyblock:8pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 15000},
+								{"test": "hourly_clock_time","operator": "<=","value": 15999}]
+						},
+						"event": "skyblock:9pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 16000},
+								{"test": "hourly_clock_time","operator": "<=","value": 16999}]
+						},
+						"event": "skyblock:10pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 17000},
+								{"test": "hourly_clock_time","operator": "<=","value": 17999}]
+						},
+						"event": "skyblock:11pm"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 18000},
+								{"test": "hourly_clock_time","operator": "<=","value": 18999}]
+						},
+						"event": "skyblock:12am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 19000},
+								{"test": "hourly_clock_time","operator": "<=","value": 19999}]
+						},
+						"event": "skyblock:1am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 20000},
+								{"test": "hourly_clock_time","operator": "<=","value": 20999}]
+						},
+						"event": "skyblock:2am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 21000},
+								{"test": "hourly_clock_time","operator": "<=","value": 21999}]
+						},
+						"event": "skyblock:3am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 22000},
+								{"test": "hourly_clock_time","operator": "<=","value": 22999}]
+						},
+						"event": "skyblock:4am"
+					},
+					{
+						"filters": {"all_of": [
+								{"test": "hourly_clock_time","operator": ">=","value": 23000},
+								{"test": "hourly_clock_time","operator": "<=","value": 23999}]
+						},
+						"event": "skyblock:5am"
 					}
 				]
 			}
@@ -298,13 +466,30 @@
 					]
 				}
 			},
-			"skyblock:holding_wooden_pickaxe": {
-				"run_command": {
-					"command": [
-						"execute @a[scores={quest_id=3}] ~ ~ ~ scoreboard players set @a pickaxe_crafted 1"
-					]
-				}
-			}
+			"skyblock:holding_wooden_pickaxe": {"run_command": {"command": ["execute @a[scores={quest_id=3}] ~ ~ ~ scoreboard players set @a pickaxe_crafted 1"]}},
+			"skyblock:1am": {"run_command": {"command": ["function clock/1am"]}},
+			"skyblock:1pm": {"run_command": {"command": ["function clock/1pm"]}},
+			"skyblock:2am": {"run_command": {"command": ["function clock/2am"]}},
+			"skyblock:2pm": {"run_command": {"command": ["function clock/2pm"]}},
+			"skyblock:3am": {"run_command": {"command": ["function clock/3am"]}},
+			"skyblock:3pm": {"run_command": {"command": ["function clock/3pm"]}},
+			"skyblock:4am": {"run_command": {"command": ["function clock/4am"]}},
+			"skyblock:4pm": {"run_command": {"command": ["function clock/4pm"]}},
+			"skyblock:5am": {"run_command": {"command": ["function clock/5am"]}},
+			"skyblock:5pm": {"run_command": {"command": ["function clock/5pm"]}},
+			"skyblock:6am": {"run_command": {"command": ["function clock/6am"]}},
+			"skyblock:6pm": {"run_command": {"command": ["function clock/6pm"]}},
+			"skyblock:7am": {"run_command": {"command": ["function clock/7am"]}},
+			"skyblock:7pm": {"run_command": {"command": ["function clock/7pm"]}},
+			"skyblock:8am": {"run_command": {"command": ["function clock/8am"]}},
+			"skyblock:8pm": {"run_command": {"command": ["function clock/8pm"]}},
+			"skyblock:9am": {"run_command": {"command": ["function clock/9am"]}},
+			"skyblock:9pm": {"run_command": {"command": ["function clock/9pm"]}},
+			"skyblock:10am": {"run_command": {"command": ["function clock/10am"]}},
+			"skyblock:10pm": {"run_command": {"command": ["function clock/10pm"]}},
+			"skyblock:11am": {"run_command": {"command": ["function clock/11am"]}},
+			"skyblock:12am": {"run_command": {"command": ["function clock/11pm"]}},
+			"skyblock:12pm": {"run_command": {"command": ["function clock/12am"]}}
 		}
 	}
 }

@@ -25,7 +25,3 @@
 #scoreboard players reset "§7 3:00am §b)" skyblock_sidebar
 #scoreboard players reset "§7 4:00am §b)" skyblock_sidebar
 #scoreboard players reset "§7 5:00am §b)" skyblock_sidebar
-
-# Set the current time
-scoreboard players set "§7 6:00am §e()" skyblock_sidebar 9
-#execute @a[scores={clock=600..699}] ~ ~ ~ scoreboard players set "§7 6:00am §e()" skyblock_sidebar 7
