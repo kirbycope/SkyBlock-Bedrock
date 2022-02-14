@@ -488,8 +488,9 @@
 			"skyblock:10am": {"run_command": {"command": ["function clock/10am"]}},
 			"skyblock:10pm": {"run_command": {"command": ["function clock/10pm"]}},
 			"skyblock:11am": {"run_command": {"command": ["function clock/11am"]}},
-			"skyblock:12am": {"run_command": {"command": ["function clock/11pm"]}},
-			"skyblock:12pm": {"run_command": {"command": ["function clock/12am"]}}
+			"skyblock:11pm": {"run_command": {"command": ["function clock/11pm"]}},
+			"skyblock:12am": {"run_command": {"command": ["function clock/12am"]}},
+			"skyblock:12pm": {"run_command": {"command": ["function clock/12pm"]}}
 		}
 	}
 }
