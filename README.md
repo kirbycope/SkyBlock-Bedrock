@@ -5,4 +5,5 @@ Skyblock is one of the most popular survival gamemodes. The idea is that you can
 
 ## Installation
 1. Download the [.mctemplate file](https://github.com/kirbycope/SkyBlock-Bedrock/raw/main/SkyBlock.mctemplate)
-1. Double-click the file to add the World template and launch Minecraft Bedrock
+1. Double-click the downloaded file to install and launch Minecraft
+1. Start a new save/world and select the imported template
