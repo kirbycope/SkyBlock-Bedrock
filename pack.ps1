@@ -24,7 +24,11 @@ Remove-Item "$temp\resource_packs\$templateName" -Recurse;
 Copy-Item -Path "$resourcePacktory\$templateName" -Destination "$temp\resource_packs\$templateName" -Recurse;
 
 ## 
-# If I were to rezip(manually) it works
+# If I were to rezip(manually) it works.
+# 1. Go to /com.mojang
+# 2. Right-click on the "SkyBlock" folder
+# 3. Select "Compress to ZIP file"
+# 4. Rename the file "SkyBlock.mctemplate"
 ##
 
 # Compress the Template
