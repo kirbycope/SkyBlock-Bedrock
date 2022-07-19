@@ -9,19 +9,19 @@ $temp = "$gameDirectory\$templateName";
 # Rename Template
 Rename-Item -Path "$temp.mctemplate" -NewName "$templateName.zip";
 # Unarchive Template
-Expand-Archive -Path "$temp.zip" -DestinationPath "$temp";
-# Remove Template Archvie
+Expand-Archive -Path "$temp.zip" -DestinationPath "$temp" -Force -ErrorAction SilentlyContinue;
+# Remove Template Archive
 Remove-Item "$temp.zip" -Force -ErrorAction SilentlyContinue;
 # Remove Old Behaviors
 Remove-Item "$temp\behavior_packs\$templateName" -Recurse -ErrorAction SilentlyContinue;
 # Copy Behavior Pack to Template
-Copy-Item -Path "$behaviorPacktory\$templateName\" -Recurse -Destination "$temp\behavior_packs\$templateName" -Container;
+Copy-Item -Path "$behaviorPacktory\$templateName" -Recurse -Destination "$temp\behavior_packs\$templateName" -Container;
 # Remove Old Resources
-Remove-Item "$temp\resource_packs\$templateName" -Force -ErrorAction SilentlyContinue;
+Remove-Item "$temp\resource_packs\$templateName" -Recurse -ErrorAction SilentlyContinue;
 # Copy Resource Pack to Template
-Copy-Item -Path "$resourcePacktory\$templateName\" -Recurse -Destination "$temp\resource_packs\$templateName" -Container;
+Copy-Item -Path "$resourcePacktory\$templateName" -Recurse -Destination "$temp\resource_packs\$templateName" -Container;
 # Compress the Template
-Compress-Archive -Path  "$temp\*" -DestinationPath "$temp.zip" -Force;
+Compress-Archive -Path  "$temp" -DestinationPath "$temp.zip" -Force;
 # Rename zip to mctemplate
 Rename-Item -Path "$temp.zip" -NewName "$temp.mctemplate";
 # Delete temp directory
