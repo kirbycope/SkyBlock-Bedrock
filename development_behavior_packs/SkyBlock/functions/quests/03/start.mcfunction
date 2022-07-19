@@ -8,7 +8,4 @@ scoreboard objectives add pickaxe_crafted dummy
 scoreboard players set @a pickaxe_crafted 0
 
 # [Bossbar] "Objective: Craft a wood pickaxe"
-#bossbar add skyblock:bossbar-pickaxe [{"text":"Objective: "},{"text":"Craft a wood pickaxe","color":"yellow"}]
-#bossbar set skyblock:bossbar-pickaxe color yellow
-#bossbar set skyblock:bossbar-pickaxe value 100
-#bossbar set skyblock:bossbar-pickaxe players @a
+summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eCraft a wood pickaxe"

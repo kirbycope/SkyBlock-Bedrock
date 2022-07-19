@@ -7,7 +7,4 @@ scoreboard players set @a quest_id 1
 # n/a (covered in Collections)
 
 # [Bossbar] "Objective: Break a log"
-#bossbar add skyblock:bossbar-log [{"text":"Objective: "},{"text":"Break a log","color":"yellow"}]
-#bossbar set skyblock:bossbar-log color yellow
-#bossbar set skyblock:bossbar-log value 100
-#bossbar set skyblock:bossbar-log players @a
+summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eBreak a log"

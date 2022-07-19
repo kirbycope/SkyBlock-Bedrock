@@ -7,7 +7,4 @@ scoreboard players set @a quest_id 4
 scoreboard objectives add talked-to-jerry dummy
 
 # [Bossbar] "Objective: Talk to Jerry"
-#bossbar add skyblock:bossbar-villager [{"text":"Objective: "},{"text":"Talk to Jerry","color":"yellow"}]
-#bossbar set skyblock:bossbar-villager color yellow
-#bossbar set skyblock:bossbar-villager value 100
-#bossbar set skyblock:bossbar-villager players @a
+summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eTalk to Jerry"

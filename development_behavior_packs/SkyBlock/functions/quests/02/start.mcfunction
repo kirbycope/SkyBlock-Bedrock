@@ -8,7 +8,4 @@ scoreboard objectives add table_crafted dummy
 scoreboard players set @a table_crafted 0
 
 # [Bossbar] "Objective: Craft a workbench"
-#bossbar add skyblock:bossbar-workbench [{"text":"Objective: "},{"text":"Craft a workbench","color":"yellow"}]
-#bossbar set skyblock:bossbar-workbench color yellow
-#bossbar set skyblock:bossbar-workbench value 100
-#bossbar set skyblock:bossbar-workbench players @a
+summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eCraft a workbench"

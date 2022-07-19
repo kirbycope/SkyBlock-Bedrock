@@ -1,3 +1,5 @@
 entity.skyblock:invisible_chest_minecart.name=SkyBlock Menu
 item.skyblock:menu_star.name=§aSkyBlock Menu §7(Right Click)
 entity.skyblock:small_armor_stand.name=Small Armor Stand
+
+entity.skyblock:bossbar.name=Boss Bar

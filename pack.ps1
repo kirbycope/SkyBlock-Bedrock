@@ -15,13 +15,13 @@ Expand-Archive -Path "$temp.zip" -DestinationPath "$temp";
 # Remove Template Archive
 Remove-Item "$temp.zip";
 # Remove Old Behaviors
-Remove-Item "$temp\behavior_packs\$templateName" -Recurse;
+Remove-Item "$temp\$templateName\behavior_packs\$templateName" -Recurse;
 # Copy Behavior Pack to Template
-Copy-Item -Path "$behaviorPacktory\$templateName" -Destination "$temp\behavior_packs\$templateName" -Recurse;
+Copy-Item -Path "$behaviorPacktory\$templateName" -Destination "$temp\$templateName\behavior_packs\$templateName" -Recurse;
 # Remove Old Resources
-Remove-Item "$temp\resource_packs\$templateName" -Recurse;
+Remove-Item "$temp\$templateName\resource_packs\$templateName" -Recurse;
 # Copy Resource Pack to Template
-Copy-Item -Path "$resourcePacktory\$templateName" -Destination "$temp\resource_packs\$templateName" -Recurse;
+Copy-Item -Path "$resourcePacktory\$templateName" -Destination "$temp\$templateName\resource_packs\$templateName" -Recurse;
 
 ## 
 # If I were to rezip(manually) it works.

@@ -2,7 +2,7 @@
 scoreboard objectives remove pickaxe_crafted
 
 # Remove "current" Boss Bar
-#bossbar remove skyblock:bossbar-pickaxe
+kill @e[name="Objective: §eCraft a wood pickaxe"]
 
 # Start next quest
 function quests/04/start
