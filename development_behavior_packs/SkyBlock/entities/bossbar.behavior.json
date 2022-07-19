@@ -1,0 +1,42 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "skyblock:bossbar",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:boss": {
+				"hud_range": 120,
+				"should_darken_sky": false
+			},
+			"minecraft:nameable": {},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			}
+		},
+		"component_groups": {
+			"full": {
+				"minecraft:health": {
+					"value": 10,
+					"max": 10
+				}
+			}
+		},
+		"events": {
+			"skyblock:full": {
+				"add": {
+					"component_groups": [
+						"full"
+					]
+				}
+			}
+		}
+	}
+}

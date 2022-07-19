@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "skyblock:bossbar",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bossbar"
+			},
+			"geometry": {
+				"default": "geometry.bossbar"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
