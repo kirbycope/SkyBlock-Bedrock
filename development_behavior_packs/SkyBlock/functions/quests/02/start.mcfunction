@@ -8,4 +8,4 @@ scoreboard objectives add table_crafted dummy
 scoreboard players set @a table_crafted 0
 
 # [Bossbar] "Objective: Craft a workbench"
-summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eCraft a workbench"
+summon skyblock:bossbar ~ ~60 ~ 0 0 skyblock:full "Objective: §eCraft a workbench"

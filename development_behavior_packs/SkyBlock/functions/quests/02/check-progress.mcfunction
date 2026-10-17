@@ -1,2 +1,2 @@
 # ════ Objective "Craft a workbench" ════ #
-execute @a[scores={table_crafted=1..}] ~ ~ ~ function quests/02/end
+execute as @a[scores={table_crafted=1..}] at @s run function quests/02/end

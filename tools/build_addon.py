@@ -25,6 +25,8 @@ import subprocess
 import sys
 import zipfile
 
+from level_dat import without_experiments
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE = os.path.join(ROOT, "SkyBlock-Bedrock.mctemplate")   # the committed template, read for the world only
 PACKS = {   # folder in the archive -> pack in the repository
@@ -58,6 +60,8 @@ def world() -> list[tuple[str, bytes]]:
             data = archive.read(info)
             if relative == "db/CURRENT":   # LevelDB wants a bare LF here; a template zipped on Windows can carry CRLF
                 data = data.replace(b"\r\n", b"\n")
+            if relative == "level.dat":   # the committed world may still have an experiment on that nothing here needs
+                data = without_experiments(data)
             entries.append((relative, data))
     return sorted(entries)
 

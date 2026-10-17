@@ -7,4 +7,4 @@ scoreboard players set @a quest_id 1
 # n/a (covered in Collections)
 
 # [Bossbar] "Objective: Break a log"
-summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eBreak a log"
+summon skyblock:bossbar ~ ~60 ~ 0 0 skyblock:full "Objective: §eBreak a log"

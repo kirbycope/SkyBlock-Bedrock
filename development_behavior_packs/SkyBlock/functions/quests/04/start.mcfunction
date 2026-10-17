@@ -7,4 +7,4 @@ scoreboard players set @a quest_id 4
 scoreboard objectives add talked-to-jerry dummy
 
 # [Bossbar] "Objective: Talk to Jerry"
-summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eTalk to Jerry"
+summon skyblock:bossbar ~ ~60 ~ 0 0 skyblock:full "Objective: §eTalk to Jerry"

@@ -8,4 +8,4 @@ scoreboard objectives add pickaxe_crafted dummy
 scoreboard players set @a pickaxe_crafted 0
 
 # [Bossbar] "Objective: Craft a wood pickaxe"
-summon skyblock:bossbar ~ ~60 ~ skyblock:full "Objective: §eCraft a wood pickaxe"
+summon skyblock:bossbar ~ ~60 ~ 0 0 skyblock:full "Objective: §eCraft a wood pickaxe"

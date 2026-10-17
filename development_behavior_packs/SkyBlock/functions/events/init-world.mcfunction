@@ -30,12 +30,12 @@ scoreboard objectives add skyblock_sidebar dummy "§e§lSKYBLOCK"
 scoreboard objectives setdisplay sidebar skyblock_sidebar
 
 # [NPC] Jerry
-summon villager 3 65 26 become_unskilled "§fJerry §eCLICK"
+summon villager 3 65 26 0 0 become_unskilled "§fJerry §eCLICK"
 tp @e[name="§fJerry §eCLICK"] 3 65 26 facing 0 64 0
 effect @e[name="§fJerry §eCLICK"] resistance 255 255 true
 
 # [NPC] Cobblestone Minion
-summon skyblock:small_armor_stand -3 65 29 minecraft:entity_spawned "§7Cobblestone Minion"
+summon skyblock:small_armor_stand -3 65 29 0 0 minecraft:entity_spawned "§7Cobblestone Minion"
 tp @e[name="§7Cobblestone Minion"] -3 65 29 facing 0 64 0
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.head 0 skyblock:cobblestone_helmet 1
 replaceitem entity @e[name="§7Cobblestone Minion"] slot.armor.chest 0 leather_chestplate 1
