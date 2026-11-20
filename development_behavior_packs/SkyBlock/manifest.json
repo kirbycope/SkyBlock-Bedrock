@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "SkyBlock",
-		"description": "SkyBlock Behavior Pack",
+		"description": "SkyBlock Behavior Pack 1.1.1",
 		"uuid": "22119525-3010-4435-876b-e0a82049fae9",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -15,21 +15,21 @@
 			"description": "Behavior",
 			"type": "data",
 			"uuid": "26d9816b-d6b9-42db-ad66-3c8fc59a4ae7",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		},
 		{
 			"description": "Menu, quests and clock",
 			"type": "script",
 			"language": "javascript",
 			"uuid": "5e5b1e2b-436a-4200-acb3-98fa21b7f99e",
-			"version": [1, 1, 0],
+			"version": [1, 1, 1],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "1d239c5d-ee3f-4f5d-9581-bb5666b19e3c",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		},
 		{
 			"module_name": "@minecraft/server",

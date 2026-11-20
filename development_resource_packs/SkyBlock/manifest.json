@@ -2,9 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"name": "SkyBlock",
-		"description": "SkyBlock Resource Pack",
+		"description": "SkyBlock Resource Pack 1.1.1",
 		"uuid": "1d239c5d-ee3f-4f5d-9581-bb5666b19e3c",
-		"version": [1, 1, 0],
+		"version": [1, 1, 1],
 		"min_engine_version": [1, 26, 0]
 	},
 	"metadata": {
@@ -15,7 +15,7 @@
 			"description": "SkyBlock",
 			"type": "resources",
 			"uuid": "b7904517-b0bf-45f0-9e09-baec78ab3bff",
-			"version": [1, 1, 0]
+			"version": [1, 1, 1]
 		}
 	]
 }
